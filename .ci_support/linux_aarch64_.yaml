@@ -24,6 +24,8 @@ expat:
 - '2'
 gmp:
 - '6'
+mpfr:
+- '4'
 target_platform:
 - linux-aarch64
 zip_keys:
