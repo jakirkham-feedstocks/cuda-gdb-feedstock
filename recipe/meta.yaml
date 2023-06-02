@@ -46,6 +46,7 @@ outputs:
         - expat
         - gmp
         - mpfr
+        - ncurses
       run:
         - {{ pin_compatible("cuda-version", max_pin="x.x") }}
       run_constrained:
