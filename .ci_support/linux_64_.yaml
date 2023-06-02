@@ -20,6 +20,8 @@ gmp:
 - '6'
 mpfr:
 - '4'
+ncurses:
+- '6'
 target_platform:
 - linux-64
 zip_keys:
