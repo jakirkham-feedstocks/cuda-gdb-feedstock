@@ -45,8 +45,8 @@ outputs:
         - cuda-version {{ cuda_version }}
         - expat                                 # [aarch64]
         - gmp
-        - mpfr                                  # [ppc64le]
-        - ncurses                               # [ppc64le]
+        - mpfr 4                                # [ppc64le]
+        - ncurses 5                             # [ppc64le]
       run:
         - {{ pin_compatible("cuda-version", max_pin="x.x") }}
       run_constrained:
